@@ -8,10 +8,17 @@ and supports complete customer and admin workflows.
 Quick Start
 -----------
 
-* Initialize database: php setup.php
-* Start server: php -S 127.0.0.1:8000
-* Open application: http://127.0.0.1:8000
-* Admin login: admin / admin123
+Initialize database:
+php setup.php
+
+Start server:
+php -S 127.0.0.1:8000
+
+Open application:
+http://127.0.0.1:8000
+
+Admin login:
+admin / admin123
 
 Features
 --------
@@ -19,28 +26,35 @@ Features
 Customer Side
 -------------
 
-* Professional hero banner with category navigation
-* Curated product catalog
-  Soft Toys, Hampers, Home Decor, Wellness
-* Product details with reviews and ratings
-* Dynamic shopping cart
-* User authentication
-* Order tracking and history
+Professional hero banner with category navigation
+Curated product catalog
+Soft Toys, Hampers, Home Decor, Wellness
+Product details with reviews and ratings
+Dynamic shopping cart
+User authentication
+Order tracking and history
 
 Admin Side
 ----------
 
-* Admin dashboard
-* Metrics overview
-* Order dispatch and management
+Admin dashboard
+Metrics overview
+Order dispatch and management
 
 Tech Stack
 ----------
 
-Backend: Native PHP 8.0+
-Database: SQLite 3
-Frontend: CSS3, Tailwind CSS
-Server: PHP built-in development server
+Backend:
+Native PHP 8.0+
+
+Database:
+SQLite 3
+
+Frontend:
+CSS3, Tailwind CSS
+
+Server:
+PHP built-in development server
 
 Prerequisites
 -------------
@@ -51,39 +65,38 @@ SQLite3 extension enabled in php.ini
 Installation and Setup
 ----------------------
 
-1. Initialize the database
-
+Initialize the database:
 php setup.php
 
-2. Start the server
+Start the server:
+php -S 127.0.0.1:8000
 
-Option A: Double-click run_app.bat
-Option B: php -S 127.0.0.1:8000
-
-3. Access the application
-
+Access the application:
 http://127.0.0.1:8000
 
 Admin Credentials
 -----------------
 
-Username: admin
-Password: admin123
+Username:
+admin
+
+Password:
+admin123
 
 Project Structure
 -----------------
 
 /
-├── actions/        PHP action handlers
-├── assets/         Static assets
-│   └── img/        Images
-├── includes/       Database helpers
-├── views/          UI templates
-├── setup.php       Database initialization
-├── index.php       Application entry point
-├── run_app.bat     Windows launcher
-├── README.md       Documentation
-└── giftshop.db     SQLite database
+actions        PHP action handlers
+assets         Static assets
+assets/img     Images
+includes       Database helpers
+views          UI templates
+setup.php      Database initialization
+index.php      Application entry point
+run_app.bat    Windows launcher
+README.md      Documentation
+giftshop.db    SQLite database
 
 Database Schema
 ---------------
