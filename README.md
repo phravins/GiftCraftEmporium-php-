@@ -21,7 +21,7 @@ Customer Side
 
 * Professional hero banner with category navigation
 * Curated product catalog
-  Soft Toys, Hampers, Home Decor, Wellness
+* Soft Toys, Hampers, Home Decor, Wellness
 * Product details with reviews and ratings
 * Dynamic shopping cart
 * User authentication
@@ -37,31 +37,34 @@ Admin Side
 Tech Stack
 ----------
 
-Backend: Native PHP 8.0+
-Database: SQLite 3
-Frontend: CSS3, Tailwind CSS
-Server: PHP built-in development server
+Backend:
+Native PHP 8.0+
+
+Database:
+SQLite 3
+
+Frontend:
+CSS3, Tailwind CSS
+
+Server:
+PHP built-in development server
 
 Prerequisites
 -------------
 
-PHP 8.0 or higher installed and added to PATH
-SQLite3 extension enabled in php.ini
+* PHP 8.0 or higher installed and added to PATH
+* SQLite3 extension enabled in php.ini
 
 Installation and Setup
 ----------------------
 
-1. Initialize the database
-
+Initialize the database:
 php setup.php
 
-2. Start the server
+Start the server:
+php -S 127.0.0.1:8000
 
-Option A: Double-click run_app.bat
-Option B: php -S 127.0.0.1:8000
-
-3. Access the application
-
+Access the application:
 http://127.0.0.1:8000
 
 Admin Credentials
@@ -73,14 +76,14 @@ Password: admin123
 Database Schema
 ---------------
 
-Users
-Admins
-Categories
-Products
-Carts
-Orders
-OrderItems
-Reviews
+* Users
+* Admins
+* Categories
+* Products
+* Carts
+* Orders
+* OrderItems
+* Reviews
 
 License
 -------
